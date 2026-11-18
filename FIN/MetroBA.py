@@ -13,9 +13,6 @@ from datetime import datetime, timedelta
 import webbrowser
 from datetime import datetime
 
-# matplotlib debe usar el backend tkAgg para evitar conflictos con tkinter
-matplotlib.use('tkAgg')
-
 
 # VARIABLES Y DATOS
 LISTA_COORDENADAS = {
